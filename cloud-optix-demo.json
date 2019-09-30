@@ -481,21 +481,7 @@
           "collation": "SQL_Latin1_General_CP1_CI_AS",
           "maxSizeBytes": "1073741824",
           "requestedServiceObjectiveName": "Basic"
-        },
-        "resources": [
-          {
-            "comments": "Transparent Data Encryption",
-            "name": "current",
-            "type": "transparentDataEncryption",
-            "apiVersion": "2014-04-01",
-            "properties": {
-              "status": "Disabled"
-            },
-            "dependsOn": [
-              "[variables('sqlDatabaseName')]"
-            ]
-          }
-        ]
+        }
       },
       {
         "type": "firewallRules",
